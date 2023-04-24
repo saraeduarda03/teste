@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+<style type="text/css">
+
+body, html
+{
+	height: 100%;
+	width: 100%;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+input
+{
+	width: 180px;
+}
+
+.div1
+{
+border-color: black;
+height:;
+display: flex;
+align-content:stretch;
+justify-content: center;
+}	
+
+.div2
+{
+border-color: black;
+height:;
+display: flex;
+align-content:stretch;
+justify-content: center;
+}
+
+.div3
+{
+border-color: black;
+height:;
+display: flex;
+align-content:stretch;
+justify-content: center;
+}
+ 
+.div4
+{
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 357px;
+    height: 337px;
+    border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+
+}
+
+.botão
+{
+background-color: violet;
+height:20px;
+width: 50px;
+color: white;
+border-radius: 5px;      
+}
+
+.botão:hover
+{
+background-color: purple;    
+}
+
+
+
+input
+{
+width: 220px;
+height: 22px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+function funcaoteste()   
+{
+
+var a = document.getElementById("teste32").value;
+var b = document.getElementById("teste33").value;
+
+if ( a == 'sara' & b == 123) 
+{
+
+
+window.location.href = "dantassara.html";
+return false;   
+
+}
+else
+{
+alert('falha!');
+}
+
+  
+}
+
+
+
+
+</script>
+
+</head>
+<body style="display: flex; align-items: center; justify-content: center; ">
+
+
+
+
+	<div class="div4">
+
+<h1> Login </h1>
+
+    <label for="username">usuario:</label>
+    <input type="text" name="username" id="teste32">
+
+    <label for="pass">senha:</label>
+    <input type="password" name="password"  id="teste33">
+
+    <button class="botão" onclick="funcaoteste()" >Entrar</button>
+
+  
+<a href="sara.html">
+<h2>cadastrar-se</h2>
+</a>
+
+<a href="saraeduarda.html">
+<h2>esqueci minha senha</h2>
+</a>
+
+
+</div>
+
+
+
+</body>
+</html>

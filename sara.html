@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+</head>
+
+<style type="text/css">
+
+.div4
+{
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+
+}
+</style>
+
+
+<body style="display: flex; align-items: center; justify-content: center; ">
+<div class="div4">
+
+<h1>Cadastre-se</h1>
+<form method="post" action="/receber_dados.php">
+nome: <input type="text" name="fname" placeholder="Digite seu nome"><br>
+sobrenome: <input type="text" name="lname" placeholder="Digite seu sobrenome"><br>
+
+E-mail: <input type="email" name="e-mail" placeholder="digite seu e-mail aqui">
+
+Data de nascimento:<input type="date" name="nascimento">
+    
+<input type="submit" name="enviar" value="Enviar">    
+      
+</div>
+  
+</form>
+
+
+</body>
+</html>
